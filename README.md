@@ -11,3 +11,6 @@ The final step is using the model to find plagiarism instances in the arxiv data
 There are additional steps of fine tuning and improving results.
 The rest of the code can be found here in the python scripts and sh files.
 
+The correct way to call the plagiarism modul:
+
+run_plagiarism_detection.sh --load_model ./plagiarism_output/best_siamese_bert.pth --test 'src text' 'test text'
